@@ -1,9 +1,11 @@
 # expo-barcode-scanner-plus
 
-本库是在expo-barcode-scanner库上进行扩展，为 expo 项目提供 webview 支持用于网页加载，增加了对react-native-web的支持。
+本库是在expo-barcode-scanner库上进行扩展，为expo项目提供扫描各种支持的条形码。在expo-barcode-scanner的基础上增加了对react-native-web的支持。
 
 ## 安装
 `$ npx expo install expo-barcode-scanner`
+
+`$ npx expo install expo-av`
 
 `$ npx expo install expo-barcode-scanner-plus`
 
@@ -11,11 +13,15 @@
 
 `$ yarn add expo-barcode-scanner`
 
+`$ yarn add install expo-av`
+
 `$ yarn add expo-barcode-scanner-plus`
 
 或
 
 `$ npm install expo-barcode-scanner --save`
+
+`$ npm install expo-av --save`
 
 `$ npm install expo-barcode-scanner-plus --save`
 
@@ -30,7 +36,7 @@ import {
     View,
     TouchableOpacity,
 } from 'react-native';
-import { BarCodeScanner } from 'expo-barcode-scanner';
+import { BarCodeScanner } from 'expo-barcode-scanner-plus';
 
 
 class TestPage extends Component {
@@ -77,11 +83,6 @@ class TestPage extends Component {
                     <View style={{width:300, height:300, overflow:"hidden",justifyContent: 'center',
                         alignItems: 'center',}}>
                         {
-                            // isScan &&
-                            // <BarCodeScanner
-                            //     onBarCodeScanned={ this.onBarCodeScanned }
-                            //     style={{width:300, height:300, backgroundColor:"red"}}
-                            // />
                             <BarCodeScanner
                                 onBarCodeScanned={ isScan ? this.onBarCodeScanned : null}
                                 style={{width:300, height:300, backgroundColor:"red"}}

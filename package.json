@@ -1,7 +1,7 @@
 {
   "name": "expo-barcode-scanner-plus",
   "title": "Expo Barcode Scanner Plus",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "本库为expo项目提供扫描各种支持的条形码。在expo-barcode-scanner的基础上增加了Web支持",
   "main": "src/index",
   "files": [
@@ -35,10 +35,10 @@
   "readmeFilename": "README.md",
   "dependencies": {
     "qr-scanner": "^1.4.2",
-    "expo-av": "~13.0.3",
-    "typescript": "^4.6.3"
+    "typescript": "^5.1.3"
   },
   "devDependencies": {
-    "expo-barcode-scanner": "~12.5.3"
+    "expo-barcode-scanner": "~12.5.3",
+    "expo-av": "~13.4.1"
   }
 }
