@@ -1,0 +1,44 @@
+{
+  "name": "expo-barcode-scanner-plus",
+  "title": "Expo Barcode Scanner Plus",
+  "version": "1.0.0",
+  "description": "本库为expo项目提供扫描各种支持的条形码。在expo-barcode-scanner的基础上增加了Web支持",
+  "main": "src/index",
+  "files": [
+    "README.md",
+    "src"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeng-zhiming/expo-barcode-scanner-plus.git",
+    "baseUrl": "https://github.com/zeng-zhiming/expo-barcode-scanner-plus"
+  },
+  "keywords": [
+    "expo-barcode-scanner",
+    "barcode",
+    "scanner",
+    "react-native",
+    "react",
+    "expo",
+    "ios",
+    "android"
+  ],
+  "author": {
+    "name": "zeng-zhiming",
+    "email": "171314432@qq.com"
+  },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "qr-scanner": "^1.4.2",
+    "expo-av": "~13.0.3",
+    "typescript": "^4.6.3"
+  },
+  "devDependencies": {
+    "expo-barcode-scanner": "~12.5.3"
+  }
+}
