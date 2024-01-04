@@ -1,7 +1,7 @@
 {
   "name": "expo-barcode-scanner-plus",
   "title": "Expo Barcode Scanner Plus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "本库为expo项目提供扫描各种支持的条形码。在expo-barcode-scanner的基础上增加了Web支持",
   "main": "src/index",
   "files": [
